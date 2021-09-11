@@ -5,19 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
     <title>First Website</title>
+
 </head>
 
 <body>
 
     <!-- Navbar Start -->
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <!-- Navbar End -->
 
 
@@ -27,11 +49,11 @@
         <div class="container">
             <h1>Home</h1>
             <hr>
-            <h1>This is Saif</h1>
+            <h1>This is Seif</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae qui debitis iusto consequuntur
                 voluptas obcaecati! Reprehenderit sapiente odio, debitis quo ullam animi saepe magni rem, illum autem
-                eligendi dolorum architecto?</p>
-            <img src="./تنزيل.jpg" alt="Letter A">
+                eligendi dolorum architecto? </p>
+            <img class="logo" src="/res" alt="Letter S">
         </div>
     </section>
     <!-- Home End -->
@@ -73,10 +95,7 @@
                     <th>right wing</th>
                 </tr>
             </table>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/mbeT8mpmtHA"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+
         </div>
     </section>
     <!-- work End -->
@@ -87,7 +106,7 @@
             <h1>resume</h1>
             <hr>
             <h1>my name is seif hazem i am 17 years old</h1>
-            <img src="./تنزيل.jpg" alt="Letter A">
+            <img class="logo" src="/res/img89.jpg" alt="Letter S">
 
         </div>
     </section>
@@ -110,6 +129,13 @@
         </div>
     </section>
     <!-- contact End -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
